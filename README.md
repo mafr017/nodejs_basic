@@ -8,5 +8,6 @@
 4. Net (Server & Client)
 5. Console (log)
 6. Worker
+7. Http Client
 
 Referensi:  [Programmer Zaman Now](https://www.udemy.com/user/eko-kurniawan/)
