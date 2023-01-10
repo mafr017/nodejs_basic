@@ -12,3 +12,6 @@ client.addListener("data", (data) => {
 setInterval(() => {
     client.write(`${process.argv[2]}\r\n`)
 }, 3000);
+
+// Command 
+// node 04_net-client.mjs ujang

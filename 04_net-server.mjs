@@ -21,3 +21,6 @@ const server = net.createServer((client) => {
 })
 
 server.listen(3000, "localhost")
+
+// Command 
+//node 04_net-server.mjs  

@@ -7,5 +7,6 @@
 3. Timer
 4. Net (Server & Client)
 5. Console (log)
+6. Worker
 
 Referensi:  [Programmer Zaman Now](https://www.udemy.com/user/eko-kurniawan/)
