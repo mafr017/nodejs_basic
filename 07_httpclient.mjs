@@ -1,11 +1,12 @@
 import https from "https"
 
-const url = "https://hookb.in/NOG6NXJZDwieDp6eRNoG"
+const url = "https://app.fmyinvitation.com/api/invitation/v1/wish/get"
 const request = https.request(url, {
     method: "POST",
     headers: {
-        "Content-Type": "application/json",
-        "Accept": "application/json",
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+        "Access-Control-Allow-Origin": "*",
     }
 }, function (response) {
     response.addListener("data", function (data) {
@@ -14,8 +15,7 @@ const request = https.request(url, {
 })
 
 const body = JSON.stringify({
-    firstName: "Ujang",
-    lastName: "Kasep",
+    "invitation": "nikah"
 })
 
 request.write(body)

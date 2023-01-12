@@ -9,5 +9,6 @@
 5. Console (log)
 6. Worker
 7. Http Client
+8. Http Server
 
 Referensi:  [Programmer Zaman Now](https://www.udemy.com/user/eko-kurniawan/)

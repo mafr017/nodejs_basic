@@ -1,0 +1,7 @@
+POST http://localhost:3000/panggil
+Content-Type: application/json
+Accept: application/json
+
+{
+    "user" : "Asep"
+}
